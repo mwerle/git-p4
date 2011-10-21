@@ -1128,7 +1128,7 @@ class P4Submit(Command):
         self.commits.reverse()
 
         if self.verbose:
-            print "Commits to apply: " + self.commits
+            print "Commits to apply: %s" % self.commits
 
         self.applyCommits()
         
